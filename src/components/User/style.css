@@ -1,0 +1,12 @@
+.btn{
+    /* padding: 0.5px; */
+    margin-left: 10px;
+    margin-bottom: 5px;
+    background-color: skyblue;
+    color: black;
+    width: 100px;
+    border-radius: 8px;
+    text-align: center;
+
+    cursor: pointer;
+  }
