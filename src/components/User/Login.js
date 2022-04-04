@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
 const Login = () => {
 
     const [name,setName]=useState('');
     console.log(name)
-    let navigate = useNavigate();
+    // let navigate = useNavigate();
     const handler=()=>{
         navigate(`/Chips/${name}`);
         // console.log(id,"id")
@@ -17,6 +17,7 @@ const Login = () => {
               type="text"
               className="form-control form-control-lg"
               placeholder="Enter name"
+              id='name'
               name="name1"
               value={name}
               onChange={(e)=>setName(e.target.value)}
